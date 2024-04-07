@@ -1,0 +1,6 @@
+---
+- name: install php-mysql on vm1
+  apt:
+    name: php-mysql
+    state: present
+  when: "'vm1' in inventory_hostname"
