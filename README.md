@@ -1,1 +1,1 @@
-# php-mysql
+installs php-mysql on vm1
